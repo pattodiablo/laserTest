@@ -1,0 +1,90 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/images/enemy1.png",
+                "type": "image",
+                "key": "enemy1"
+            },
+            {
+                "url": [
+                    "src/prefabs/Enemy1.js"
+                ],
+                "type": "scripts",
+                "key": "Enemy1"
+            },
+            {
+                "atlasURL": "assets/atlas/explosion.json",
+                "textureURL": "assets/atlas/explosion.png",
+                "type": "atlas",
+                "key": "explosion"
+            },
+            {
+                "url": [
+                    "src/scenes/Explotion1.js"
+                ],
+                "type": "scripts",
+                "key": "Explotion1"
+            },
+            {
+                "atlasURL": "assets/atlas/flares.json",
+                "textureURL": "assets/atlas/flares.png",
+                "type": "atlas",
+                "key": "flares"
+            },
+            {
+                "url": "src/animations/laserAnimations.json",
+                "type": "animation",
+                "key": "laserAnimations"
+            },
+            {
+                "url": "assets/images/laserBase.png",
+                "type": "image",
+                "key": "laserBase"
+            },
+            {
+                "url": [
+                    "src/prefabs/LaserBase.js"
+                ],
+                "type": "scripts",
+                "key": "LaserBase"
+            },
+            {
+                "atlasURL": "assets/atlas/playerAnimations.json",
+                "textureURL": "assets/atlas/playerAnimations.png",
+                "type": "atlas",
+                "key": "playerAnimations"
+            },
+            {
+                "atlasURL": "assets/atlas/propsNew.json",
+                "textureURL": "assets/atlas/propsNew.png",
+                "type": "atlas",
+                "key": "propsNew"
+            },
+            {
+                "url": "assets/images/ship.png",
+                "type": "image",
+                "key": "ship"
+            },
+            {
+                "url": [
+                    "src/prefabs/Ship.js"
+                ],
+                "type": "scripts",
+                "key": "Ship"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

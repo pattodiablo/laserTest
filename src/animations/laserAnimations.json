@@ -1,0 +1,481 @@
+{
+    "anims": [
+        {
+            "key": "blast1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "explosion",
+                    "frame": "EXP_01.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_02.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_03.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_04.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_05.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_06.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_07.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_08.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_09.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "EXP_10.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion",
+                    "frame": "GameOverpng00.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "hideOnComplete": true
+        },
+        {
+            "key": "blast2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10013",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "blast3",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "blast4",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30006",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "blast5",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10033",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

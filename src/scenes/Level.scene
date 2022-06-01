@@ -1,0 +1,85 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "6992d559-911b-4122-8191-96ae8621bfaf",
+            "label": "background1",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "prefabId": "bb45771f-4379-4f59-b194-0c7b4f5cd6b0",
+            "id": "8ec35c42-b835-463a-a18c-3ea30d341f6b",
+            "unlock": [
+                "x",
+                "y",
+                "laserTarget",
+                "fireDelay"
+            ],
+            "label": "ship",
+            "laserTarget": "laserBase",
+            "fireDelay": 1500,
+            "components": [],
+            "x": 141,
+            "y": 52
+        },
+        {
+            "prefabId": "5522d301-c69c-465c-afb8-2fb2fed6db72",
+            "id": "2ec50ee1-1e67-4a02-af06-82b45c88fda4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "laserBase",
+            "scope": "CLASS",
+            "components": [],
+            "x": 248,
+            "y": 303
+        },
+        {
+            "prefabId": "1114dc70-8426-4f51-9889-b69adbe35649",
+            "id": "703d4377-15f5-4458-a714-e6909f475804",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemy1",
+            "components": [],
+            "x": 841,
+            "y": 223
+        },
+        {
+            "prefabId": "1114dc70-8426-4f51-9889-b69adbe35649",
+            "id": "749bb365-3fef-4d2d-aec9-dfd394831cc5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemy1_1",
+            "components": [],
+            "x": 800,
+            "y": 485
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

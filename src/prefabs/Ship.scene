@@ -1,0 +1,70 @@
+{
+    "id": "bb45771f-4379-4f59-b194-0c7b4f5cd6b0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": ""
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "01043af7-6be1-48be-95f2-6904c9c6cea8",
+            "label": "ship",
+            "components": [],
+            "texture": {
+                "key": "ship"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "laserTarget",
+            "label": "laserTarget",
+            "tooltip": "laserTarget",
+            "defValue": "this.scene.laserBase",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "LaserBase"
+            }
+        },
+        {
+            "name": "bounceTime",
+            "label": "bounceTime",
+            "tooltip": "bounceTime",
+            "defValue": 3000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "shipVelocity",
+            "label": "shipVelocity",
+            "tooltip": "shipVelocity",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "fireDelay",
+            "label": "fireDelay",
+            "tooltip": "fireDelay",
+            "defValue": 1000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

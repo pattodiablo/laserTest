@@ -1,0 +1,39 @@
+{
+    "id": "5522d301-c69c-465c-afb8-2fb2fed6db72",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": ""
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "771259fb-ad97-43f8-9927-68cad2564a9a",
+            "label": "laserBase",
+            "components": [],
+            "texture": {
+                "key": "laserBase"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "target",
+            "label": "target",
+            "tooltip": "target",
+            "defValue": "ship",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}
