@@ -7,6 +7,18 @@
                 "key": "background"
             },
             {
+                "atlasURL": "assets/atlas/BlastOrigin.json",
+                "textureURL": "assets/atlas/BlastOrigin-sheet.png",
+                "type": "atlas",
+                "key": "BlastOrigin"
+            },
+            {
+                "atlasURL": "assets/atlas/BlastOrigin2.json",
+                "textureURL": "assets/atlas/BlastOrigin2.png",
+                "type": "atlas",
+                "key": "BlastOrigin2"
+            },
+            {
                 "url": "assets/images/enemy1.png",
                 "type": "image",
                 "key": "enemy1"
@@ -77,6 +89,12 @@
                 ],
                 "type": "scripts",
                 "key": "Ship"
+            },
+            {
+                "atlasURL": "assets/atlas/Sprite-0001.json",
+                "textureURL": "assets/atlas/Sprite-0001-sheet.png",
+                "type": "atlas",
+                "key": "Sprite-0001"
             }
         ]
     },

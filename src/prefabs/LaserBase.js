@@ -13,8 +13,12 @@ class LaserBase extends Phaser.GameObjects.Sprite {
 		/* END-USER-CTR-CODE */
 	}
 
+	/** @type {number} */
+	beamThickness = 1;
 	/** @type {string} */
-	target = "ship";
+	beamColor = "0xf92209";
+	/** @type {string} */
+	beamColor2 = "0xFFFFFF";
 
 	/* START-USER-CODE */
 
@@ -25,26 +29,26 @@ class LaserBase extends Phaser.GameObjects.Sprite {
 
 	}
 	fire(){
-		
+
 		this.visible=true;
-		this.play("blast5",true);
-		this.beam1 = this.scene.add.rectangle(this.x, this.y, this.scene.cameras.main.width, 4, 0xf92209);
+		this.play("blastOrigin",true);
+		this.beam1 = this.scene.add.rectangle(this.x, this.y, this.scene.cameras.main.width, this.beamThickness, Number(this.beamColor));
 		this.scene.physics.world.enableBody(this.beam1);
 		this.scene.physics.add.overlap(this.scene.enemies,this.beam1,this.hitEnemy);
 		this.beam1.lineWidth=2;
-		this.beam1.strokeColor="0x3ffd3d";
+		this.beam1.strokeColor=this.beamColor;
 		this.beam1.setOrigin(0,0.5);
 		this.beam1.holder=this;
 		this.depth=1;
 		this.beam1.setDepth(this.depth-1)
-	
+
 		this.beamAnim = this.scene.tweens.createTimeline();
-		
+
 		this.beamAnim.add({
 			targets: this.beam1,
 			alpha: { from: 0, to: 1 },
 			ease: 'Linear',      
-			fillColor:"0xffffff", 
+			fillColor: this.beamColor2, 
 			duration: 50,
 			repeat: 2,           
 			yoyo: true,
@@ -58,7 +62,7 @@ class LaserBase extends Phaser.GameObjects.Sprite {
 			repeat: 0,           
 
 		});
-		
+
 		this.beamAnim.add({
 			targets: this.beam1,
 			scaleX: 1,
@@ -82,7 +86,7 @@ class LaserBase extends Phaser.GameObjects.Sprite {
 				this.targets[0].holder.visible=false;
 				this.targets[0].destroy();
 
-				
+
 			}
 		});
 

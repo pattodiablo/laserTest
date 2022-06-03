@@ -42,10 +42,16 @@
             "id": "2ec50ee1-1e67-4a02-af06-82b45c88fda4",
             "unlock": [
                 "x",
-                "y"
+                "y",
+                "beamThickness",
+                "beamColor2",
+                "beamColor"
             ],
             "label": "laserBase",
             "scope": "CLASS",
+            "beamThickness": 5,
+            "beamColor": "0x81F6F1",
+            "beamColor2": "0xFA2E5E",
             "components": [],
             "x": 248,
             "y": 303

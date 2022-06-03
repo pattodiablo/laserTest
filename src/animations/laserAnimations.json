@@ -471,6 +471,160 @@
             "frameRate": 24,
             "skipMissedFrames": true,
             "repeat": -1
+        },
+        {
+            "key": "blast6",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Sprite-0001",
+                    "frame": "blast6 0.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Sprite-0001",
+                    "frame": "blast6 1.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "blastOrigin2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BlastOrigin2",
+                    "frame": "BlastOrigin2 0.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin2",
+                    "frame": "BlastOrigin2 1.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "blastOrigin",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 0.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 1.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 10.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 11.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 12.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 13.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 14.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 15.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 16.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 2.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 3.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 4.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 5.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 6.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 7.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 8.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BlastOrigin",
+                    "frame": "BlastOrigin 9.aseprite",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "hideOnComplete": true
         }
     ],
     "globalTimeScale": 1,

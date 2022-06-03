@@ -26,10 +26,30 @@
     },
     "prefabProperties": [
         {
-            "name": "target",
-            "label": "target",
-            "tooltip": "target",
-            "defValue": "ship",
+            "name": "beamThickness",
+            "label": "beamThickness",
+            "tooltip": "beamThickness",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "beamColor",
+            "label": "beamColor",
+            "tooltip": "beamColor",
+            "defValue": "0xf92209",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "beamColor2",
+            "label": "beamColor2",
+            "tooltip": "beamColor2",
+            "defValue": "0xFFFFFF",
             "customDefinition": false,
             "type": {
                 "id": "string"

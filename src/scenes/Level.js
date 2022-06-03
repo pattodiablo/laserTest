@@ -40,6 +40,11 @@ class Level extends Phaser.Scene {
 		ship.laserTarget = laserBase;
 		ship.fireDelay = 1500;
 
+		// laserBase (prefab fields)
+		laserBase.beamThickness = 5;
+		laserBase.beamColor = "0x81F6F1";
+		laserBase.beamColor2 = "0xFA2E5E";
+
 		this.background1 = background1;
 		this.laserBase = laserBase;
 
