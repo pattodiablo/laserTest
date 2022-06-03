@@ -79,6 +79,13 @@
                 "key": "propsNew"
             },
             {
+                "url": [
+                    "src/prefabs/RobotPrueba.js"
+                ],
+                "type": "scripts",
+                "key": "RobotPrueba"
+            },
+            {
                 "url": "assets/images/ship.png",
                 "type": "image",
                 "key": "ship"

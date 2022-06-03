@@ -29,12 +29,8 @@ class Level extends Phaser.Scene {
 		this.add.existing(laserBase);
 
 		// enemy1
-		const enemy1 = new Enemy1(this, 841, 223);
+		const enemy1 = new Enemy1(this, 667, 319);
 		this.add.existing(enemy1);
-
-		// enemy1_1
-		const enemy1_1 = new Enemy1(this, 800, 485);
-		this.add.existing(enemy1_1);
 
 		// ship (prefab fields)
 		ship.laserTarget = laserBase;

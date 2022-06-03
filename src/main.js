@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
 			arcade:{
 				fps:60,
 				gravity:{y:0},
-				debug:false
+				debug:true
 			},
 		},
 		scale: {

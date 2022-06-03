@@ -58,27 +58,15 @@
         },
         {
             "prefabId": "1114dc70-8426-4f51-9889-b69adbe35649",
-            "id": "703d4377-15f5-4458-a714-e6909f475804",
+            "id": "ca6af99c-0075-4bc8-9762-bb33a469d808",
             "unlock": [
                 "x",
                 "y"
             ],
             "label": "enemy1",
             "components": [],
-            "x": 841,
-            "y": 223
-        },
-        {
-            "prefabId": "1114dc70-8426-4f51-9889-b69adbe35649",
-            "id": "749bb365-3fef-4d2d-aec9-dfd394831cc5",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "enemy1_1",
-            "components": [],
-            "x": 800,
-            "y": 485
+            "x": 667,
+            "y": 319
         }
     ],
     "plainObjects": [],
