@@ -98,6 +98,11 @@
                 "key": "Ship"
             },
             {
+                "url": "assets/images/ShipOne.png",
+                "type": "image",
+                "key": "ShipOne"
+            },
+            {
                 "atlasURL": "assets/atlas/Sprite-0001.json",
                 "textureURL": "assets/atlas/Sprite-0001-sheet.png",
                 "type": "atlas",

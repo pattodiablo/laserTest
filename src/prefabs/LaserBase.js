@@ -24,7 +24,7 @@ class LaserBase extends Phaser.GameObjects.Sprite {
 
 	create(){
 
-		this.scene.physics.world.enableBody(this);
+		//this.scene.physics.world.enableBody(this);
 		this.visible=false;
 
 	}

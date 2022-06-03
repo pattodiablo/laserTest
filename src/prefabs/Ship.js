@@ -6,7 +6,7 @@
 class Ship extends Phaser.GameObjects.Image {
 
 	constructor(scene, x, y, texture, frame) {
-		super(scene, x ?? 0, y ?? 0, texture || "ship", frame);
+		super(scene, x ?? 0, y ?? 0, texture || "ShipOne", frame);
 
 		/* START-USER-CTR-CODE */
 		this.scene.events.on("create",()=> this.create());
